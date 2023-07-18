@@ -32,7 +32,7 @@ public class leapYearUserInput {
 		}
 
 		else {
-			// Any condition fails- Print Non-leap year
+			//Any condition fails- Print Non-leap year
 			System.out.println(year + " : Non - Leap Year");
 		}
 	}
