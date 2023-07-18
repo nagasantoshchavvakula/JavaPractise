@@ -3,6 +3,8 @@
 //import java.io.*;
 //import java.math.*;
 
+import java.util.Scanner;
+
 class armstrongNumber {
 
 	// Function to print Armstrong
@@ -40,8 +42,12 @@ class armstrongNumber {
 	// The Driver code
 	public static void main(String args[])
 	{
-		int n1 = 50;
-		int n2 = 500;
+		Scanner sc=new Scanner(System.in);
+
+		System.out.print("Enter n1:");
+		int n1 = sc.nextInt();
+		System.out.print("Enter n2:");
+		int n2 = sc.nextInt();
 		ArmstrongNum(n1, n2);
 		System.out.println();
 	}
