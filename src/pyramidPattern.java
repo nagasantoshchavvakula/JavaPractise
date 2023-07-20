@@ -1,13 +1,23 @@
 // Java Program to Print the Pyramid pattern
 
 // Main class
+
+import java.util.Scanner;
+
 public class pyramidPattern {
 
 	// Main driver method
 	public static void main(String[] args)
 	{
-		int num = 5;
-		int x = 0;
+        Scanner sc=new Scanner(System.in);
+
+        //user input for value num
+        System.out.print("Enter num:"); //num=5,x=0
+		int num = sc.nextInt();
+
+         //user input for value x
+        System.out.print("Enter x:");
+		int x=sc.nextInt();
 
 		// Outer loop for rows
 		for (int i = 1; i <= num; i++) {
